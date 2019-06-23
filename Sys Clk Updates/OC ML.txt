@@ -1,0 +1,140 @@
+This is the master list of profiles on the database, as the site gets updated, I will update this txt.
+
+
+
+
+A 
+
+B
+
+C
+
+D 
+
+E
+	
+F
+
+#Fire Emblem Warriors 
+#Provides a smoother framerate whilst undocked
+[0100F15003E64000]
+handheld_cpu=1224
+handheld_gpu=460
+handheld_mem=1600
+
+#Fortnite
+#This enables the game to run generally smoother in handheld mode. Note: You will need to be able to actually connect to their servers for this to be of any use.
+[010025400AECE000]
+handheld_gpu=460
+handheld_mem=1600
+
+
+#Furi
+#Sustain the framerate, more noticeable after the 3rd fight
+[01009D3008D20000]
+handheld_cpu=1224
+handheld_mem=1600
+
+G
+
+#GearClubUnlimited
+#Eliminates some stutter during races in handheld mode.
+[010065E003FD8000]
+handheld_gpu=460
+handheld_mem=1600
+
+#Gear Club Unlimited 2
+#Mitigates freezes that occur while racing in handheld mode..
+[010072900AFF0000]
+handheld_gpu=460
+handheld_mem=1600
+
+#Grip
+#This enables the game to actually run at 30FPS
+[0100459009A2A000]
+handheld_cpu=1224
+handheld_gpu=460
+handheld_mem=1600
+
+H
+
+I
+
+J
+
+K
+
+L
+
+#LA Noire
+#Smooths up things such as general camera movement while in vehicles.
+[0100830004FB6000]
+handheld_mem=1600
+
+M
+
+#Modern Combat Blackout
+#Absolutely needed to avoid frame drops in handheld mode
+[0100D8700B712000]
+handheld_gpu=460
+handheld_mem=1600
+
+N
+
+O
+
+P
+
+#Pokemon: Let's Go Eevee
+#This helps to mitigate menu slowdowns and the infamous Viridian Forest slowdown when there are a lot of Pokemon on-screen.
+[0100187003A36000]
+handheld_gpu=460
+handheld_mem=1600
+
+
+#Pokemon: Let's Go Pikachu
+#This helps to mitigate menu slowdowns and the infamous Viridian Forest slowdown when there are a lot of Pokemon on-screen.
+[010003f003a34000]
+handheld_gpu=460
+handheld_mem=1600
+
+R
+
+#RiME
+#Better Framerate. Still some slowdowns
+[0100A62002042000]
+handheld_gpu=460
+handheld_mem=1600
+
+S
+
+#Super Smash Bros
+#Fast loading times, great in game battle speeds and nice battery savings
+[01006A800016E000]
+handheld_cpu=1220
+handheld_gpu=230
+handheld_mem=1600
+
+T
+
+#Tales of Vesperia
+#Better performance in cities and map
+[01002C0008E52000]
+handheld_gpu=460
+handheld_mem=1600
+
+U
+
+V
+
+W
+
+X
+
+Y
+
+Z
+
+
+
+

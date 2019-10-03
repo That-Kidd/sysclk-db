@@ -733,3 +733,16 @@ a p {
     padding-bottom: 10vw;
   }
 }
+
+#kidd li a:link {
+  color: #D8DEE9;
+
+
+}
+#kidd li a:visited{
+  color: #3a8f49;
+}
+
+#kidd li a:hover{
+  color: #ec0a0a;
+}

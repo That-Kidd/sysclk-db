@@ -1,0 +1,12 @@
+#kiddalert a:link{
+color: #D8DEE9;
+}
+#kiddalert a:visited{
+    color: #3a8f49;
+}
+#kiddalert a:hover{
+    color: #ec0a0a
+}
+#kiddhead {
+    text-align: center;
+}

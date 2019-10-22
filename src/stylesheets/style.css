@@ -1,3 +1,6 @@
+body{
+  background-color: black;
+}
 @font-face {
   font-family: SFPro-Rounded-Bold;
   src: url("../font/sf-pro/SF-Pro-Rounded-Bold.otf");
@@ -25,12 +28,12 @@ h4, .h4 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: solid black;
   z-index: 120;
   font-family: SFPro-Rounded-Bold !important;
 }
 .navbar {
-  background-color: rgb(24, 26, 29);
+  background-color:solid black;
   
 }
 .col-lg-6 {
@@ -50,8 +53,8 @@ body {
 }
 
 html, body {
-  color: #f2f2f2;
-  background-color: #2E3440;
+  color:white;
+  background-color: solid black;
   font-family: SFPro-Rounded-Bold
 }
 
@@ -61,7 +64,7 @@ li {
 
 .card {
   color: #f2f2f2;
-  background-color: #2E3440;
+  background-color: solid black;
   border: 1px solid #f2f2f2;
 }
 
@@ -669,7 +672,7 @@ hr.short {
 .toolbar {
   text-align: center;
   border-top: 1.5px solid rgb(20, 21, 24);
-  background-color: rgb(37, 40, 46);
+  background-color: black;
   overflow: hidden;
   position: fixed;
   bottom: 0;

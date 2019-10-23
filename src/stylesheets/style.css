@@ -1,3 +1,6 @@
+body{
+  background-color: black;
+}
 @font-face {
   font-family: SFPro-Rounded-Bold;
   src: url("../font/sf-pro/SF-Pro-Rounded-Bold.otf");
@@ -25,12 +28,12 @@ h4, .h4 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: solid black;
   z-index: 120;
   font-family: SFPro-Rounded-Bold !important;
 }
 .navbar {
-  background-color: rgb(24, 26, 29);
+  background-color:solid black;
   
 }
 .col-lg-6 {
@@ -50,8 +53,8 @@ body {
 }
 
 html, body {
-  color: #f2f2f2;
-  background-color: #2E3440;
+  color:white;
+  background-color: solid black;
   font-family: SFPro-Rounded-Bold
 }
 
@@ -61,7 +64,7 @@ li {
 
 .card {
   color: #f2f2f2;
-  background-color: #2E3440;
+  background-color: solid black;
   border: 1px solid #f2f2f2;
 }
 
@@ -187,18 +190,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 }
 .toc {
   font-family: SFPro-Rounded-Bold;
-  color: #7a8288;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 1px;
-  background-color: #2E3440;
-  border: 1px solid #585d66;
+  background-color: solid black;
+  border: 1px solid black;
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(0,0,0,0.125);
 }
 .toc .nav__title {
   color: #fff;
   font-size: 1em;
-  background: #88C0D0;
+  background: solid black;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
@@ -669,7 +672,7 @@ hr.short {
 .toolbar {
   text-align: center;
   border-top: 1.5px solid rgb(20, 21, 24);
-  background-color: rgb(37, 40, 46);
+  background-color: black;
   overflow: hidden;
   position: fixed;
   bottom: 0;
@@ -735,14 +738,27 @@ a p {
 }
 
 #kidd li a:link {
-  color: #D8DEE9;
+  color: white;
 
 
 }
 #kidd li a:visited{
-  color: #3a8f49;
+  color: purple;
 }
 
 #kidd li a:hover{
-  color: #ec0a0a;
+  color: #3a8f49;
 }
+#kiddfooter ul{
+  text-align: center;
+}
+#kiddfooter li{
+  text-decoration: none;
+  list-style-type: none;
+  overflow: hidden;
+  float: left;
+  text-align: center;
+}
+::-webkit-scrollbar {
+  display: none;
+  }

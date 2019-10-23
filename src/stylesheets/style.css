@@ -190,18 +190,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 }
 .toc {
   font-family: SFPro-Rounded-Bold;
-  color: #7a8288;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 1px;
-  background-color: #2E3440;
-  border: 1px solid #585d66;
+  background-color: solid black;
+  border: 1px solid black;
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(0,0,0,0.125);
 }
 .toc .nav__title {
   color: #fff;
   font-size: 1em;
-  background: #88C0D0;
+  background: solid black;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
@@ -738,14 +738,27 @@ a p {
 }
 
 #kidd li a:link {
-  color: #D8DEE9;
+  color: white;
 
 
 }
 #kidd li a:visited{
-  color: #3a8f49;
+  color: purple;
 }
 
 #kidd li a:hover{
-  color: #ec0a0a;
+  color: #3a8f49;
 }
+#kiddfooter ul{
+  text-align: center;
+}
+#kiddfooter li{
+  text-decoration: none;
+  list-style-type: none;
+  overflow: hidden;
+  float: left;
+  text-align: center;
+}
+::-webkit-scrollbar {
+  display: none;
+  }

@@ -10,11 +10,9 @@
     overflow: hidden;
     background-color: #333;
 }
-
 .li {
     float: left;
 }
-
 .li a {
     display: block;
     color: white;
@@ -22,7 +20,6 @@
     padding: 14px 16px;
     text-decoration: none;
 }
-
 .li a:hover {
     background-color: #111;
 }
@@ -37,7 +34,7 @@
         <link rel="icon" href="./src/images/icon.png" type="image/x-icon" />
         <script src="src/js/bootstrap.bundle.min.js"></script>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" rel="stylesheet" type="text/css">
-        <link href='src/stylesheets/kidd.css' rel="stylesheet" type="text/css">
+
         <link href="src/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="src/stylesheets/style.css" rel="stylesheet" type="text/css">
         <meta charset="UTF-8">
@@ -54,7 +51,8 @@
         <meta property="og:image" src="../src/images/icon.png">
         
     </head>
-    <body>                 
+    <body>   
+                
 <div class="toolbar">
   <div class="toolbar-item">
       
@@ -64,13 +62,13 @@
   </div>
   <div class="toolbar-item">
       
-    <a href="./OC/"><i class="fas fas fa-info-circle ti"></i>
+    <a href="./OC/"><i class="fas fa-info-circle ti"></i>
       <p>OC Profiles</p>
     </a>
   </div>
 <div class="toolbar-item">
       
-    <a href="./UC/"><i class="fas fas fa-info-circle ti"></i>
+    <a href="./UC/"><i class="fas fa-info-circle ti"></i>
       <p>UC Profiles</p>
     </a>
   </div>
@@ -83,6 +81,7 @@
   
   </div>
 
+
         <div class="container-src container-fluid cntr">
             <div class="row">
                 <div class="col-lg-3">
@@ -91,82 +90,81 @@
              
                 </div>
                 <div class="col-lg-6">
-                    <h1 id="kiddhead" class="mt-5 h2-page-title">Sys Clk Profile Database</h1>
+                    <h2 style="text-align: center;" class="mt-5 h2-page-title">Sys Clk Profile Database</h2>
                     <hr>
 
    
-                    <div id="kiddalert" class="alert violet">
-                        
-                      This is a database of Underclock and Overclock profiles for Sys Clk. The submissions are from The <a href='https://discordapp.com/invite/GfEqpMa'> RetroNX Discord </a> from the #oc-perf-submissions channel.
+                    <div style=' background-color: #9202f2;  color: white;' class="alert">
+                      This is a database of Underclock and Overclock profiles for Sys Clk. The submissions are from The <a style='color: black;' href='https://discordapp.com/invite/GfEqpMa'> RetroNX Discord </a> from the <code>#oc-perf-submissions</code> channel.
                     </div>
 
                    
               
                       
-                      <hr>
+                      
                       <!--
                       <h1>empty ass header tag</h1>
                       -->
-                      <P>To use Sys Clk, you will need a switch that can run cfw. To cfw your switch 
-                        check out the <a href="https://switch.hacks.guide/"> switch guide</a>. This is a trusted guide and 
-                        it shows you how to set up cfw properly.
-                      </P>
-                      <hr>
+                      <P>
+                          Sys Clk is an application for the Nintendo Switch via homebrew. To run homebrew/cfw you will 
+                          need to check out the <a href="https://switch.hacks.guide/"> Nintendo Switch CFW Guide</a> This
+                          is a trusted guide throughout the community. This will help you set up homebrew/cfw properly.
+                    </P>
+                    <hr>
+                    <br></br>
 
 
-                      <br></br>
-
-
-                      <h3 id="kiddhead">How to use sys clk</h3>
-                      <div class="alert blue">
-                          <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                        The guide has not been updated to reflect sys-clk editor. You can still do it this way, but it is a lot easier to use the editor. 
-                      </div>
-                      <h4>Things you need:</h4>
-                      <ul id='kidd'>
-                      <li>Latest <a href='https://github.com/retronx-team/sys-clk/releases'>Sys Clk</a></li>
-                      <li>A computer with a text editor</li>
-                        <ul>
-                          <li>Windows: Notepad will work</li>
-                          <li>MacOS: TextEdit</li>
-                          <!--
-                          <li>Linux: Idfk</li>
-                          -->
-                        </ul>
-                       </ul>
-                       
-                       <br></br>
-                       <P>
-                         <ol>
-                           <li>
-                             Extract the zip and copy over the<code>atmosphere</code> and <code>config</code> folders to the root of your sd card.
-                            </li>
-                            <li>
-                              open the <code>config</code> > <code>sys-clk</code> folder til you see the  <code>config.ini</code> file. Open this in a text editor.
-                            </li>
-                            <li>
-                              This is where you place the profiles for overclocking or underclocking.
-                            </li>
-                         </ol>
-                         <div class="alert green">
-                            
-                            There is a template in the <code>config.ini</code> file, if you would like to make your own profiles.
-                            You can head over to the profile pages and copy and paste in the profile for the game you want to overclock/underclock.
-                         </div>
-                        
-                       </P> 
-                      <hr>
-                      <br></br>
-                      <h3>Homebrew</h3>
-                    
-                      <p>Here is a list of reccommended homebrew:</p>
+                    <h3 style="text-align: center;" id="kiddhead">How to use sys clk</h3>
+                    <div class="alert blue">
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                      The guide has not been updated to reflect sys-clk editor. You can still do it this way, but it is a lot easier to use the editor. 
+                    </div>
+                    <h4>Things you need:</h4>
+                    <ul id='kidd'>
+                    <li>Latest <a href='https://github.com/retronx-team/sys-clk/releases'>Sys Clk</a></li>
+                    <li>A computer with a text editor</li>
+                      <ul>
+                        <li>Windows: Notepad will work</li>
+                        <li>MacOS: TextEdit</li>
+                        <!--
+                        <li>Linux: Idfk</li>
+                        -->
+                      </ul>
+                     </ul>
+                     
+                     <br></br>
+                     <P>
+                       <ol>
+                         <li>
+                           Extract the zip and copy over the<code>atmosphere</code> and <code>config</code> folders to the root of your sd card.
+                          </li>
+                          <li>
+                            open the <code>config</code> > <code>sys-clk</code> folder til you see the  <code>config.ini</code> file. Open this in a text editor.
+                          </li>
+                          <li>
+                            This is where you place the profiles for overclocking or underclocking.
+                          </li>
+                       </ol>
+                       <div class="alert green">
+                          
+                          There is a template in the <code>config.ini</code> file, if you would like to make your own profiles.
+                          You can head over to the profile pages and copy and paste in the profile for the game you want to overclock/underclock.
+                       </div>
                       
+                     </P> 
+                    
+                   
+                      <hr>
+                     <!-- <h3>Empty ass header tag</h3> -->
+                      <p>What you need before you continue:</p>
                       <ul id='kidd'>
                         <li><a href="https://github.com/retronx-team/sys-clk/releases">Sys-Clk</a></li>
                         <li><a href="https://github.com/SunTheCourier/sys-clk-Editor/releases">Sys-Clk Editor</a></li>
                       </ul>
-                    
-
+                      <div style="text-align: center;" class="alert orange">
+                          <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                        You may now go to the profiles and select the profiles you want.<br> Happy Over/Under Clokcing!
+                      </div>
                       <!---
                       <p>Here is a list of other homebrew not related to overclocking:</p>
                       -->
@@ -174,5 +172,24 @@
             </div>
             
         </div>
+        <div class="footer">
+          <ul id='kiddfooter' >
+              <li>
+                &copy
+                <a href='#'>
+                   That-Kidd
+                  </a>
+                   2017-2019 
+              </li>
+               <li>
+                 |
+               </li>
+              <li>
+                <a href='#'>
+                   Soure Code
+                  </a>
+              </li>
+          </ul>
+          </div>
     </body>
 </html>

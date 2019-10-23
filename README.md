@@ -1,5 +1,9 @@
-**Sys-Clk Database**
+## [Sys-Clk Database](kidds.studio/sysclk-db/)
+This is a database of Overclock and Underclock profiles for Sys-Clk. The profiles listed on this site are from the RetroNX Discord and also from the community. 
 ***
-This is a database of overclock and underclock profiles for sys-clk provided by the retro NX discord.
-***
-New domain: http://kidds.studio/sysclk-db/
+### To-Do
+- Split handheld and dock submissions
+- update more profiles to the site
+- add sys-clk editor 
+  - added mentions of the editor but not fully include it into the guide
+ - ~~Another redesign~~

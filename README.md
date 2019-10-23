@@ -5,5 +5,5 @@ This is a database of Overclock and Underclock profiles for Sys-Clk. The profile
 - Split handheld and dock submissions
 - update more profiles to the site
 - add sys-clk editor 
-  - added mentions of the editor but not fully include it into the guide
+  - added mentions of the editor but it's not fully included it into the guide
  - ~~Another redesign~~

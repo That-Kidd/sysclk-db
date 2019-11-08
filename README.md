@@ -7,3 +7,7 @@ This is a database of Overclock and Underclock profiles for Sys-Clk. The profile
 - add sys-clk editor 
   - added mentions of the editor but it's not fully included it into the guide
  - ~~Another redesign~~
+
+
+## Notice:
+The site is currently down, I am trying to get it back up as fast as i can. Sorry for the issues.

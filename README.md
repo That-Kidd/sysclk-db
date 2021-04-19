@@ -4,6 +4,7 @@ This is a database of Overclock and Underclock profiles for Sys-Clk. The profile
 ### To-Do
 - Split handheld and dock submissions
 - ~~Split OC and UC submissions~~ added in Dark "Mode" Update
+  - Split dock and handheld submissions
 - update more profiles to the database
   - Going to be adding more submissions in the next coming week. 4/19/21
 - add sys-clk editor 
